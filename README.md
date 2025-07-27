@@ -6,14 +6,16 @@
 
         Whether you're a beginner or looking to refresh your knowledge, these sessions will guide you through the essentials of using Linux effectively from basic to advanced.
 
-        
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+
 # # COURSE OVERVIEW
 
 # This Course contains 6 sessions
 
 
-** Session - 1 Introduction to Linux and Linux History
-**
+**Session - 1 Introduction to Linux and Linux History**
+
     
 
             In this session, we will learn what an Operating System is and explore common examples of operating systems.
