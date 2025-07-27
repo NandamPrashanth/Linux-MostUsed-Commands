@@ -2,14 +2,15 @@
 
 # Hello Everyone, 
         
-        Welcome to the Linux Course, This reprository contains Notes, Commands and learning Material from Each Sessions designed to help you build a  Solid Foundation in Linux.
+This repository contains notes, commands, and learning materials from each session, carefully structured to help you build a solid foundation in Linux.
 
-        Whether you're a beginner or looking to refresh your knowledge, these sessions will guide you through the essentials of using Linux effectively from basic to advanced.
+Whether you're a complete beginner or simply looking to refresh your knowledge, these sessions will guide you step-by-step through the essentials of Linux—from basic concepts to more advanced topics.
 
 -----------------------------------------------------------------------------------------------------------------------------------------
 
 
 # # COURSE OVERVIEW
+
 
 # This Course contains 6 sessions
 
