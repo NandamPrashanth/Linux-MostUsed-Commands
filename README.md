@@ -9,9 +9,12 @@
         
 # # COURSE OVERVIEW
 
-    This Course contains 6 sessions
+# This Course contains 6 sessions
 
-**    1. Introduction to Linux and Linux History**
+
+** Session - 1 Introduction to Linux and Linux History
+**
+    
 
             In this session, we will learn what an Operating System is and explore common examples of operating systems.
 
