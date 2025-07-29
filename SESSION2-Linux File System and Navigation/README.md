@@ -158,7 +158,7 @@ Uses symbols like . (current dir) and .. (parent dir)
 
 
 # COMMANDS USED DAY RO DAY LIFE
-
+```bash
 * pwd — Print Working Directory
 Useful to confirm where you are, especially in scripts or after running multiple cd commands.
 
@@ -179,7 +179,7 @@ Useful to confirm where you are, especially in scripts or after running multiple
   ..	Parent directory	cd ..
   ~	Home directory	cd ~
   /	Root directory	cd /
-
+```
 # Examples
 
 *Scenario 1: Find and Open Log File
