@@ -157,7 +157,7 @@ Uses symbols like . (current dir) and .. (parent dir)
    And then youll be able to access notes.txt
 
 
-# COMMANDS USED DAY RO DAY LIFE
+# COMMANDS USED IN DAY TO DAY LIFE
 ```bash
 * pwd — Print Working Directory
 Useful to confirm where you are, especially in scripts or after running multiple cd commands.
