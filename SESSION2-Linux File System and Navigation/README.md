@@ -1,6 +1,6 @@
 # Session 2 – Linux File System and Navigation
 
-In this session we will learn how What is **File System** , **File System Components** , **Hierarchical Tree Structure in Linux** and commands which we use in day to day life in File System.
+In this session we will learn What is **File System** , **File System Components** , **Hierarchical Tree Structure in Linux** and commands which we use in day to day life in File System.
 
 And later we will see how to Navigate in between files. And how to **Print Working Directory**, **Change Directory** , **List Directory Contents** , **Special Directory Symbols**, and then we will see scenario based exapmles.
 
@@ -132,7 +132,7 @@ A PATH in Linux defines how to reach a **file or a directory** from **certain lo
 
 ```
 
-Now bsolute path to notes.txt is: /home/student/Documents/world.txt
+Now absolute path to notes.txt is: /home/student/Documents/world.txt
 
  **Even if you’re in /var or /tmp or any other, this path will still take you to the file 'world.txt'.**
 
