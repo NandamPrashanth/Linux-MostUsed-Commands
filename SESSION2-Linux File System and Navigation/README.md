@@ -50,8 +50,8 @@ The entire Linux file system starts from /, regardless of where files are physic
 ├── dev       → Device files
 ├── etc       → System-wide configuration files
 ├── home      → User directories
-│   ├── alice
-│   └── bob
+│   ├── USER1
+│   └── USER2
 ├── lib       → Essential shared libraries
 ├── media     → Auto-mounted external devices
 ├── mnt       → Temporary mount points
@@ -156,6 +156,84 @@ Uses symbols like . (current dir) and .. (parent dir)
 
    And then youll be able to access notes.txt
 
+
+# COMMANDS USED DAY RO DAY LIFE
+
+* pwd — Print Working Directory
+Useful to confirm where you are, especially in scripts or after running multiple cd commands.
+
+* cd — Change Directory
+  cd ~          # Go to home
+  cd ..         # Up one level
+  cd -          # Go back to previous location
+
+* ls — List Directory Contents
+  ls
+  ls -l         # Long listing (permissions, owner, size)
+  ls -a         # Show hidden files (.bashrc)
+  ls -lh        # Human-readable sizes
+
+* Special Directory Symbols
+  Symbol	Meaning	Example
+  .	Current directory	./script.sh
+  ..	Parent directory	cd ..
+  ~	Home directory	cd ~
+  /	Root directory	cd /
+
+# Examples
+
+*Scenario 1: Find and Open Log File
+Goal: Navigate to and view /var/log/syslog
+
+cd /var/log
+ls -lh
+less syslog
+
+*Scenario 2: Traverse Into a Deep Folder
+Path: /home/student/course/linux/week1/notes
+
+cd ~/course/linux/week1/notes
+
+*Scenario 3: Jump Between Two Folders
+
+cd ~/projects/linux
+cd /etc
+cd -   # Go back to ~/projects/linux
+
+*Scenario 4: Check Files
+
+cd /media
+ls
+cd usb
+ls -l
+   
+* Auto-Completion
+Use the TAB key to auto-complete file/folder names.
+
+cd /etc/def[TAB]   ➝ /etc/default/
+
+* Command History
+Use Up Arrow (↑) or history to recall previous commands.
+
+* clear and Ctrl + L
+Clear the screen to reduce clutter.
+
+* Combine Navigation
+
+cd ~/Documents/linux && ls -lh
+
+* Useful Navigation Aliases (Optional for Teaching)
+
+alias ..="cd .."
+alias ...="cd ../.."
+alias ll="ls -l"
+alias cls="clear"
+
+
+
+
+
+  
 
 
 
