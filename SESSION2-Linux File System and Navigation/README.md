@@ -43,14 +43,15 @@ The entire Linux file system starts from /, regardless of where files are physic
 
 # TREE STRUCTURE DIAGRAM
 
-/ (roor)
+```bash
+/
 ├── bin       → Essential system binaries
 ├── boot      → Boot loader files (kernel, grub)
 ├── dev       → Device files
 ├── etc       → System-wide configuration files
 ├── home      → User directories
-│   ├── USER1
-│   └── USER2
+│   ├── alice
+│   └── bob
 ├── lib       → Essential shared libraries
 ├── media     → Auto-mounted external devices
 ├── mnt       → Temporary mount points
@@ -63,6 +64,8 @@ The entire Linux file system starts from /, regardless of where files are physic
 │   ├── lib
 │   └── share
 └── var       → Variable data like logs and spools
+```
+
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -119,12 +122,15 @@ A PATH in Linux defines how to reach a **file or a directory** from **certain lo
  An Abosolute path always starts from a root directory / and it shows the complete path to destination.
 
  * For an Example
+```bash
 
    /
 └── home
     └── student
         └── Documents
             └── world.txt
+
+```
 
 Now bsolute path to notes.txt is: /home/student/Documents/world.txt
 
