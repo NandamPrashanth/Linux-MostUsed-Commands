@@ -132,7 +132,7 @@ A PATH in Linux defines how to reach a **file or a directory** from **certain lo
 
 ```
 
-Now absolute path to notes.txt is: /home/student/Documents/world.txt
+Now absolute path to world.txt is: /home/student/Documents/world.txt
 
  **Even if you’re in /var or /tmp or any other, this path will still take you to the file 'world.txt'.**
 
