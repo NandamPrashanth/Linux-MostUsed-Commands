@@ -35,9 +35,9 @@ A **File System** is a method used by an Operating System ( **OS**) to organize,
 ## What is aHierarchical File System?
 A hierarchical file system is one where files are organized in a **tree-like structure:**
 
-*The root of the tree is the topmost directory called /.
-*Branches and leaves of the tree represent directories (folders) and files.
-*Each directory can have subdirectories, forming nested levels.
+* The root of the tree is the topmost directory called /.
+* Branches and leaves of the tree represent directories (folders) and files.
+* Each directory can have subdirectories, forming nested levels.
 
 The entire Linux file system starts from /, regardless of where files are physically stored (hard disk, SSD, USB, network).
 
