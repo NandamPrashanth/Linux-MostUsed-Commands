@@ -110,10 +110,8 @@ A PATH in Linux defines how to reach a **file or a directory** from **certain lo
 
 * There are two types of path
   
-  | Type              | Starts From                 | Example                   |
-| ----------------- | --------------------------- | ------------------------- |
-| **Absolute Path** | Always from the root `/`    | `/home/student/Documents` |
-| **Relative Path** | From your current directory | `Documents/notes.txt`     |
+**Absolute Path** : Always from the root `/`    example:  `/home/student/Documents` 
+**Relative Path** : From your current directory example:  `Documents/notes.txt`     |
 
 
  # ABSOLUTE PATH (If a path starts with a forward slash /, it is an absolute path.)
@@ -142,11 +140,11 @@ Uses symbols like . (current dir) and .. (parent dir)
 
    /home/student
 
-   *And now you want to access
+   * And now you want to access
 
    /home/student/Documents/notes.txt
 
-   *Use this relative path:
+   * Use this relative path:
 
    cd Documents
 
