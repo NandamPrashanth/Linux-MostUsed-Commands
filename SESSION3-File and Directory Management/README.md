@@ -65,14 +65,14 @@ Once it is done we will walk through the **Directory Management** and we will le
 
 7. To Read / View a File  
    
-```bash
-| Tool   | Use                    |
-|--------|-------------------------|
-| `cat`  | Display the whole file |
-| `less` | Scrollable file view   |
-| `head` | View first lines       |
-| `tail` | View last lines        |
-```
+
+| Tool   | Use                      |
+|--------|--------------------------|
+| **cat**  | Display the whole file |
+| **less** | Scrollable file view   |
+| **head** | View first lines       |
+| **tail** | View last lines        |
+
 
 
 9. To Locate a File  
