@@ -63,9 +63,9 @@ Once it is done we will walk through the **Directory Management** and we will le
 6. To move  
       mv filename.txt /path/to/destination/  
 
-7. To Read / View a File
-   bash
-   ````
+7. To Read / View a File  
+   
+   ```bash
       | Tool   | Use                    |
 | ------ | ---------------------- |
 | `cat`  | Display the whole file |
@@ -73,7 +73,7 @@ Once it is done we will walk through the **Directory Management** and we will le
 | `head` | View first lines       |
 | `tail` | View last lines        |
 
-````  
+```  
 
 9. To Locate a File  
     locate filename  
