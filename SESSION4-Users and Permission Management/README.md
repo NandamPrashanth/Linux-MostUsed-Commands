@@ -22,13 +22,13 @@ In Linux, every user has an associated user account, which defines the user's ab
 **sudo useradd -m john**
 3. Setting users password  
 **sudo passwd <username>**
-4. Checking existing user details
+4. Checking existing user details  
 **cat /etc/passwd | grep <username>**
 5. To delete a user without removing their home directory  
-**sudo userdel <username>**
+**sudo userdel <username>**  
 6. To delete a user with their home directory
 **sudo userdel -r <username>**
-7. To create a group
+7. To create a group  
 **sudo groupadd <groupname>**
 8. Adding user to a group  
 **sudo usermod -aG <groupname> <username>**
