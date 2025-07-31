@@ -32,11 +32,11 @@ In Linux, every user has an associated user account, which defines the user's ab
 **sudo groupadd <groupname>**
 8. Adding user to a group  
 **sudo usermod -aG <groupname> <username>**
-9. Removing a user from group
+9. Removing a user from group  
 **sudo gpasswd -d <username> <groupname>**
-10. Checking user group membership
+10. Checking user group membership  
 **groups <username>**
-11. Changing user login name
+11. Changing user login name  
 **sudo usermod -l <new_username> <old_username>**
 
 
