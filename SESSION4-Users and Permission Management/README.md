@@ -84,9 +84,9 @@ r-- → Others (can read only)
 
 Use chmod to change permissions.  
 
-chmod u+x script.sh      # Give execute to owner
-chmod g-w myfile.txt     # Remove write from group
-chmod o+r file.txt       # Give read to others
+chmod u+x script.sh      # Give execute to owner  
+chmod g-w myfile.txt     # Remove write from group  
+chmod o+r file.txt       # Give read to others  
 
 You can also use numbers:  
 
