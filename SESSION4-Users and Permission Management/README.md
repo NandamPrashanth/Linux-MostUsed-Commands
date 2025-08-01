@@ -38,7 +38,10 @@ In Linux, every user has an associated user account, which defines the user's ab
 **groups username**
 11. Changing user login name  
 **sudo usermod -l new_username old_username**
-
+12. To verify a created group  
+**cat /etc/group**
+13. To verify which group a specific user belongs to  
+**groups username**
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # What are Permissions in Linux?  
