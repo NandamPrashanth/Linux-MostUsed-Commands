@@ -39,4 +39,119 @@ In Linux, every user has an associated user account, which defines the user's ab
 11. Changing user login name  
 **sudo usermod -l new_username old_username**
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# What are Permissions in Linux?  
+Permissions control who can do what with a file or folder. In Linux, every file or folder has three types of permissions:  
+**Read (r)** – Can view the contents.
+
+**Write (w)** – Can modify or delete.
+
+**Execute (x)** – Can run the file as a program/script.
+
+# Three Types of Users  
+Every file/folder has permissions for three types of users:
+
+User Type	Meaning  
+
+**Owner**	The person who created the file.
+**Group**	A group the file belongs to.
+**Others**	Everyone else.
+
+
+#  Check File Permissions  
+
+Use the ls -l command:  
+ls -l filename  
+
+Example output:  
+-rwxr-xr-- 1 alice staff 1234 Aug 1 12:00 myfile.txt  
+
+-rwxr-xr-- → The permission string
+
+First character: - (file), d (directory)
+
+rwx → Owner (can read, write, execute)
+
+r-x → Group (can read, execute)
+
+r-- → Others (can read only)
+
+# Change Permissions with chmod  
+
+Use chmod to change permissions.  
+
+chmod u+x script.sh      # Give execute to owner
+chmod g-w myfile.txt     # Remove write from group
+chmod o+r file.txt       # Give read to others
+
+You can also use numbers:  
+
+| Symbol | Number |
+| ------ | ------ |
+| `r`    | 4      |
+| `w`    | 2      |
+| `x`    | 1      |
+
+Example:  
+
+chmod 755 myfile.txt  
+
+Means:
+
+7 (owner): 4+2+1 = rwx
+
+5 (group): 4+0+1 = r-x
+
+5 (others): 4+0+1 = r-x
+
+Examples:  
+
+touch test.txt  
+
+chmod 600 test.txt   # Only owner can read/write  
+
+chmod 644 test.txt   # Everyone can read, only owner can write  
+
+chmod 777 test.txt   # Be careful! Everyone can do everything!  
+
+
+Try ls -l after each change and observe.  
+
+
+
+# Change Owner or Group  
+
+Use chown to change the file owner:  
+
+chown newowner filename  
+
+Use chgrp to change the group:  
+
+chgrp newgroup filename  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
