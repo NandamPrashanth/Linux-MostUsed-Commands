@@ -42,6 +42,10 @@ In Linux, every user has an associated user account, which defines the user's ab
 **cat /etc/group**
 13. To verify which group a specific user belongs to  
 **groups username**
+
+To switch into a created user directory  
+
+sudo su - username
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # What are Permissions in Linux?  
