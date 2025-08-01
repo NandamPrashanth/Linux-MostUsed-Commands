@@ -46,6 +46,8 @@ In Linux, every user has an associated user account, which defines the user's ab
 To switch into a created user directory  
 
 sudo su - username
+
+WHILE PERFOMRING ANY ACTION THAT NEED ROOT PERMISSION THEN YOU CAN ADD YOUR USER TO %SUDO OR %WHEEL WHICH EVER PRESENT IN YOU /ETC/SUDOERS AND TO DO THAT YOU NEED TO USE usermod -aG groupname username
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # What are Permissions in Linux?  
