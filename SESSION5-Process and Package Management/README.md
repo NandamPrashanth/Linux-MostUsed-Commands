@@ -89,8 +89,14 @@ dnf clean all                    # Clean package cache
 dnf reinstall nginx             # Reinstall a package
 ```
 
+# DIFFERENCE BETWEEN UPDATE AND UPGRADE
 
+# UPDATE
+Updates the package lists (metadata) from the repositories. It downloads the latest information about packages (like versions, availability) from your configured repositories.
+It doesn't install or upgrade any software—just fetches the latest info.
 
+# UPGRADE 
+Upgrades the installed packages to the latest versions available in the repositories (based on the info fetched by update).It installs newer versions of the packages you already have.
 
 
 
