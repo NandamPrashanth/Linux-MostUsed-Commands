@@ -11,6 +11,8 @@ ps aux                # List all processes
 top                   # Real-time process monitoring
 htop                  # Interactive viewer (install via dnf)
 pidof nginx           # Get PID of a running process
+pgrep nginx           # Get PID of a running process
+ps -u username        # (Show all processes for a specific user)
 
 ```
 
