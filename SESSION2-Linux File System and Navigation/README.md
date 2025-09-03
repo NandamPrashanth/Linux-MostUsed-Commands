@@ -123,13 +123,11 @@ A PATH in Linux defines how to reach a **file or a directory** from **certain lo
 
  * For an Example
 ```bash
-
    /
 └── home
     └── student
         └── Documents
             └── world.txt
-
 ```
 
 Now absolute path to world.txt is: /home/student/Documents/world.txt
